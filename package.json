@@ -1,0 +1,48 @@
+{
+  "name": "data-investigation-kit",
+  "version": "1.0.0",
+  "description": "Deterministic CLI, verification gates, embeddable explorer templates, and portable AI Agent Skills for source-verified data investigations and interactive essays.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bin": {
+    "data-kit": "./bin/data-kit.mjs",
+    "data-investigation-kit": "./bin/data-kit.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "rules/",
+    "assets/",
+    "examples/",
+    "plugin.json",
+    "AGENTS.md",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "verify:example": "node ./bin/data-kit.mjs verify --spec examples/civic-grants/investigation.spec.json",
+    "audit:example": "node ./bin/data-kit.mjs audit examples/civic-grants/data/records.json --spec examples/civic-grants/investigation.spec.json",
+    "check": "node --test tests/*.test.mjs && node ./bin/data-kit.mjs verify --spec examples/civic-grants/investigation.spec.json"
+  },
+  "keywords": [
+    "data-journalism",
+    "public-records",
+    "agent-skills",
+    "verification-gate",
+    "interactive-essays",
+    "open-data",
+    "ai-agents",
+    "reproducible-research"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RolePlayingTech/data-investigation-kit.git"
+  },
+  "homepage": "https://github.com/RolePlayingTech/data-investigation-kit#readme"
+}

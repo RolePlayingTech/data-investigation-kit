@@ -1,0 +1,14 @@
+{
+  "name": "data-investigation-kit",
+  "displayName": "Data Investigation Kit",
+  "version": "1.0.0",
+  "description": "Deterministic auditing tools, zero-drift KPI verification gates, embeddable explorer templates, and agent skills for source-verified data journalism and public-record essays.",
+  "logo": "assets/logo.svg",
+  "repository": "https://github.com/RolePlayingTech/data-investigation-kit",
+  "homepage": "https://github.com/RolePlayingTech/data-investigation-kit#readme",
+  "suggestedPrompts": [
+    "Scaffold a new source-verified data investigation workspace with an interactive explorer and KPI gate",
+    "Audit a public-records JSON dataset for 10x clerical typos, repeated lot totals, entity drift, and denominator traps",
+    "Verify that every number, deep-link preset, and OpenGraph card in our report matches the dataset"
+  ]
+}

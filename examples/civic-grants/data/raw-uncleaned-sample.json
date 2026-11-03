@@ -1,0 +1,70 @@
+[
+  {
+    "id": "RAW-2026-101",
+    "publishedDate": "2026-01-19",
+    "title": "Online Operator Training Portal for Municipal Water Staff",
+    "buyer": "Central Water Agency",
+    "category": "training",
+    "status": "resolved",
+    "estimatedAmount": 49500,
+    "winningBid": 54000,
+    "enteredAmount": 540000,
+    "amount": 540000,
+    "bidCount": 4,
+    "vendors": ["AquaLearn LLC"],
+    "sourceUrl": "https://example.org/filings/RAW-2026-101"
+  },
+  {
+    "id": "RAW-2025-204",
+    "publishedDate": "2025-06-11",
+    "title": "Three-Lot Acoustic Pipe Sensor Delivery",
+    "buyer": "Northern Grid Institute",
+    "category": "infrastructure",
+    "status": "resolved",
+    "amount": 1350000,
+    "bidCount": 1,
+    "lots": [
+      { "lot": 1, "winningBid": 150000, "enteredContractValue": 450000 },
+      { "lot": 2, "winningBid": 180000, "enteredContractValue": 450000 },
+      { "lot": 3, "winningBid": 120000, "enteredContractValue": 450000 }
+    ],
+    "vendors": ["AquaLearn, L.L.C. Tax ID: 99-1234567"],
+    "sourceUrl": "https://example.org/filings/RAW-2025-204"
+  },
+  {
+    "id": "RAW-2025-309",
+    "publishedDate": "2025-09-03",
+    "title": "Avian Influenza Poultry Surveillance Kits for Regional Lab",
+    "buyer": "State Veterinary Diagnostic Center",
+    "category": "infrastructure",
+    "status": "resolved",
+    "amount": 88000,
+    "bidCount": 2,
+    "vendors": ["BioVet Supplies Inc."],
+    "sourceUrl": "https://example.org/filings/RAW-2025-309"
+  },
+  {
+    "id": "RAW-2026-412",
+    "publishedDate": "2026-03-22",
+    "title": "Conference Catering and Office Chairs for Smart-Grid Department",
+    "buyer": "Civic Polytechnic University",
+    "category": "advisory",
+    "status": "resolved",
+    "amount": 42000,
+    "bidCount": 6,
+    "vendors": ["Metro Events Co."],
+    "sourceUrl": "https://example.org/filings/RAW-2026-412"
+  },
+  {
+    "id": "RAW-2026-518",
+    "publishedDate": "2026-04-10",
+    "title": "Proprietary Telemetry Module Upgrade on Incumbent Plant Controller",
+    "buyer": "Harbor District Utility",
+    "category": "software",
+    "status": "resolved",
+    "amount": 210000,
+    "bidCount": null,
+    "vendors": ["CoreSCADA Systems Corp."],
+    "sourceUrl": "https://example.org/filings/RAW-2026-518"
+  }
+]

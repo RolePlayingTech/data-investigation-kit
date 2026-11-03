@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "title": "Municipal Water & Smart-Grid Grants Audit (2024–2026)",
+  "dataset": "data/records.json",
+  "currency": "USD",
+  "snapshotDate": "2026-06-01",
+  "enums": {
+    "statuses": [
+      "resolved",
+      "open",
+      "cancelled"
+    ],
+    "coreCategories": [
+      "software",
+      "infrastructure",
+      "training",
+      "advisory"
+    ],
+    "incidentalCategory": "incidental",
+    "scopes": [
+      "pure",
+      "mixed",
+      "incidental"
+    ],
+    "awardModes": [
+      "competitive",
+      "sole_source"
+    ]
+  },
+  "sourceUrlPattern": "^https://example\\.org/filings/",
+  "og": {
+    "kicker": "ISSUE 01 · PUBLIC REGISTRY AUDIT",
+    "headline": "Municipal Water & Smart-Grid Grants Audit (2024–2026)"
+  },
+  "reports": [
+    {
+      "path": "site/index.html",
+      "lang": "en",
+      "ogImageFile": "assets/og-card.svg",
+      "mustContainKpis": [
+        "counts.all",
+        "counts.core",
+        "counts.coreSigned",
+        "totals.coreSumMillions",
+        "competition.singleBidPct"
+      ]
+    },
+    {
+      "path": "docs/methodology.md",
+      "requireSeo": false,
+      "mustContainKpis": [
+        "counts.all",
+        "counts.coreSigned",
+        "totals.coreSumMillions"
+      ]
+    }
+  ]
+}

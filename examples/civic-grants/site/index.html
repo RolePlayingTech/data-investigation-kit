@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Audited database of 4 public proceedings (0.63M USD across 3 signed core contracts).">
+<meta property="og:title" content="Municipal Water & Smart-Grid Grants Audit (2024–2026)">
+<meta property="og:description" content="Audited dataset of 4 public filings: 0.63M USD in signed core contracts, 50.0% single-bid rate.">
+<meta property="og:image" content="https://example.org/assets/og-card.svg">
+<meta name="twitter:card" content="summary_large_image">
+<title>Municipal Water & Smart-Grid Grants Audit (2024–2026)</title>
+<script>if(location.search.indexOf('embed=1')!==-1)document.documentElement.classList.add('is-embed');</script>
+<link rel="stylesheet" href="./explorer.css">
+<script src="./explorer.js" defer></script>
+</head>
+<body>
+<nav class="subnav report-chrome">
+  <div class="frame subnav-inner">
+    <div class="subnav-links">
+      <a href="#findings">01 · Key Findings</a>
+      <a href="#hygiene">02 · Registry Hygiene</a>
+    </div>
+    <a class="subnav-cta" href="#explorer">Database (4) ↓</a>
+  </div>
+</nav>
+
+<header class="hero frame report-chrome" id="findings">
+  <div class="kicker">Issue 01 · Source-Verified Investigation</div>
+  <h1>Municipal Water & Smart-Grid Grants Audit (2024–2026)</h1>
+  <div class="lead-grid">
+    <div>
+      <p>Every figure on this page is computed deterministically from <code data-kpi="counts.all">4</code> audited registry records (<code data-kpi="counts.core">3</code> core proceedings and <code data-kpi="counts.incidental">1</code> incidental filings).</p>
+      <p><a href="?single=1#explorer" data-preset="single=1">Inspect single-bid contracts ↓</a> · <a href="?sole=1#explorer" data-preset="sole=1">Inspect sole-source awards ↓</a></p>
+    </div>
+    <aside class="meta-box">
+      <strong>Scope &amp; Accounting Guardrails</strong>
+      <ul>
+        <li>Tracks signed gross contract commitments, not annual cash outlays.</li>
+        <li>Separates open competitive tenders from sole-source awards.</li>
+      </ul>
+      <details class="meta-more">
+        <summary>Methodology &amp; audit details</summary>
+        <p>Incidental facility filings are retained in JSON for transparency and excluded from core totals by default.</p>
+      </details>
+    </aside>
+  </div>
+
+  <div class="findings">
+    <div class="finding">
+      <span class="finding-num" data-kpi="totals.coreSumMillions">0.63M USD</span>
+      <span class="finding-label">across <strong data-kpi="counts.coreSigned">3</strong> signed core contracts</span>
+    </div>
+    <div class="finding">
+      <span class="finding-num"><span data-kpi="competition.singleBidPct">50.0</span>%</span>
+      <span class="finding-label">single-bid rate among competitive contracts</span>
+    </div>
+    <div class="finding">
+      <span class="finding-num" data-kpi="competition.soleSourceCount">1</span>
+      <span class="finding-label">sole-source contracts without an open tender</span>
+    </div>
+    <div class="finding">
+      <span class="finding-num" data-kpi="totals.incidentalSumMillions">0.31M USD</span>
+      <span class="finding-label">isolated in incidental non-core filings</span>
+    </div>
+  </div>
+</header>
+
+<section class="chapter frame report-chrome" id="hygiene">
+  <div class="kicker">Chapter 02 · Dirty Registries</div>
+  <h2>Why naive keyword totals fail without filing-level validation</h2>
+  <p>Public registries routinely mix core technology deployments with hallway renovations (<a href="?incidental=1&amp;cat=incidental#explorer" data-preset="incidental=1&amp;cat=incidental">see incidental records ↓</a>) and clerical entry typos.</p>
+</section>
+
+<section class="explorer-section" id="explorer">
+  <div class="frame">
+    <div id="data-explorer" data-src="../data/records.json" data-currency="USD">
+      <noscript>
+        <p>Interactive filtering requires JavaScript. Download the full dataset of 4 audited proceedings directly at <a href="../data/records.json">records.json</a>.</p>
+      </noscript>
+    </div>
+  </div>
+</section>
+</body>
+</html>

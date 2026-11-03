@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F7F6F2"/>
+  <rect x="40" y="36" width="1120" height="558" fill="none" stroke="#1E1D1B" stroke-width="2"/>
+  <line x1="76" y1="102" x2="1124" y2="102" stroke="#D8D3C8" stroke-width="1.5"/>
+
+  <text x="76" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="1.6" fill="#98513C">ISSUE 01 · PUBLIC REGISTRY AUDIT</text>
+  <text x="1124" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5C5852">N = 4 RECORDS</text>
+
+  <text x="76" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#1E1D1B">Municipal Water &amp; Smart-Grid Grants Audit</text>
+  <text x="76" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#1E1D1B">(2024–2026)</text>
+
+  <text x="76" y="296" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" fill="#514E49">Audited dataset of 4 proceedings (3 signed core contracts) · Snapshot 2026-06-01</text>
+
+  <g transform="translate(76, 356)">
+    <rect x="0" y="0" width="332" height="190" fill="#EFECE4" stroke="#1E1D1B" stroke-width="1.5"/>
+    <text x="24" y="38" font-family="ui-monospace, SFMono-Regular, monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#5C5852">SIGNED CORE VALUE</text>
+    <text x="24" y="108" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#1E1D1B">0.63M <tspan font-size="24" fill="#98513C">USD</tspan></text>
+    <text x="24" y="154" font-family="system-ui, sans-serif" font-size="17" fill="#514E49">3 signed core contracts</text>
+
+    <rect x="358" y="0" width="332" height="190" fill="#EFECE4" stroke="#1E1D1B" stroke-width="1.5"/>
+    <text x="382" y="38" font-family="ui-monospace, SFMono-Regular, monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#5C5852">COMPETITION SPLIT</text>
+    <text x="382" y="108" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#98513C">50.0% <tspan font-size="22" fill="#1E1D1B">single-bid</tspan></text>
+    <text x="382" y="154" font-family="system-ui, sans-serif" font-size="17" fill="#514E49">1 of 2 competitive awards</text>
+
+    <rect x="716" y="0" width="332" height="190" fill="#EFECE4" stroke="#1E1D1B" stroke-width="1.5"/>
+    <text x="740" y="38" font-family="ui-monospace, SFMono-Regular, monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#5C5852">CONCENTRATION</text>
+    <text x="740" y="108" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#2D546B">97.1% <tspan font-size="22" fill="#1E1D1B">in software</tspan></text>
+    <text x="740" y="154" font-family="system-ui, sans-serif" font-size="17" fill="#514E49">66.7% of notices vs 97.1% of value</text>
+  </g>
+</svg>

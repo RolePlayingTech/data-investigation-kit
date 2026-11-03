@@ -1,0 +1,104 @@
+[
+  {
+    "id": "REG-2026-001",
+    "publishedDate": "2026-02-14",
+    "eventDate": "2026-02-10",
+    "year": 2026,
+    "title": "Telemetry Leak-Detection Software Rollout for District Water Mains",
+    "buyer": "Metro Water Authority",
+    "city": "Riverdale",
+    "region": "North District",
+    "sector": "Utilities",
+    "category": "software",
+    "scope": "pure",
+    "status": "resolved",
+    "amount": 420000,
+    "estimatedAmount": 410000,
+    "bidCount": 1,
+    "awardMode": "competitive",
+    "grantFunded": true,
+    "vendors": [
+      "HydroGrid Analytics Inc."
+    ],
+    "auditFlags": [],
+    "sourceUrl": "https://example.org/filings/REG-2026-001"
+  },
+  {
+    "id": "REG-2026-002",
+    "publishedDate": "2026-03-04",
+    "eventDate": "2026-03-01",
+    "year": 2026,
+    "title": "Introductory Grid-Operations Data Literacy Workshop",
+    "buyer": "County Public Works Board",
+    "city": "Oakview",
+    "region": "South District",
+    "sector": "Local Government",
+    "category": "training",
+    "scope": "pure",
+    "status": "resolved",
+    "amount": 18500,
+    "estimatedAmount": 20000,
+    "bidCount": 14,
+    "awardMode": "competitive",
+    "grantFunded": true,
+    "vendors": [
+      "CivicSkills Collective LLC"
+    ],
+    "auditFlags": [],
+    "sourceUrl": "https://example.org/filings/REG-2026-002"
+  },
+  {
+    "id": "REG-2026-003",
+    "publishedDate": "2026-04-19",
+    "eventDate": "2026-04-15",
+    "year": 2026,
+    "title": "Proprietary SCADA Telemetry Connector Extension",
+    "buyer": "Regional Hospital Energy Plant",
+    "city": "harborview",
+    "region": "Coastal District",
+    "sector": "Healthcare",
+    "category": "software",
+    "scope": "pure",
+    "status": "resolved",
+    "amount": 195000,
+    "estimatedAmount": 195000,
+    "bidCount": null,
+    "awardMode": "sole_source",
+    "grantFunded": false,
+    "vendors": [
+      "CoreSCADA Systems Corp."
+    ],
+    "auditFlags": [
+      "sole_source_verified"
+    ],
+    "auditNote": "Sole-source award citing exclusive integration rights on incumbent SCADA controller.",
+    "sourceUrl": "https://example.org/filings/REG-2026-003"
+  },
+  {
+    "id": "REG-2026-004",
+    "publishedDate": "2026-05-08",
+    "eventDate": "2026-05-06",
+    "year": 2026,
+    "title": "Repainting Smart-Grid Division Hallways and Office Chairs",
+    "buyer": "Institute of Grid Engineering",
+    "city": "Riverdale",
+    "region": "North District",
+    "sector": "Research & Higher Ed",
+    "category": "incidental",
+    "scope": "incidental",
+    "status": "resolved",
+    "amount": 310000,
+    "estimatedAmount": 305000,
+    "bidCount": 5,
+    "awardMode": "competitive",
+    "grantFunded": false,
+    "vendors": [
+      "BuildRight Interiors Ltd."
+    ],
+    "auditFlags": [
+      "incidental_separated"
+    ],
+    "auditNote": "Matched keyword only via division name; isolated from core technology totals.",
+    "sourceUrl": "https://example.org/filings/REG-2026-004"
+  }
+]
